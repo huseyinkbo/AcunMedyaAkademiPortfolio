@@ -1,0 +1,23 @@
+﻿@model List<AcunMedyaAkademiPortfolio.Models.TblAbout>
+@{
+    ViewBag.Title = "CreateAbout";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+
+<h3>Yeni About Girişi</h3>
+
+<form method="post">
+    <label>Açıklama</label>
+    <input type="text" class="form-control" name="Description" />
+
+    <label>Başlık</label>
+    <input type="text" class="form-control" name="Title" />
+
+    <label>Resim URL'si'</label>
+    <input type="text" class="form-control" name="ImageUrl" />
+    <br />
+
+    <button class="btn btn-info">Açıklamayı Kaydet</button>
+</form>
+

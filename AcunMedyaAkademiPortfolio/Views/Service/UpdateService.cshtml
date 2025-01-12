@@ -1,0 +1,28 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblService
+@{
+    ViewBag.Title = "UpdateService";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Servis Güncelleme</h2>
+<form method="post">
+
+
+    <label>Referans ID'si</label>
+    @Html.TextBoxFor(x => x.ServiceId, new { @class = "form-control" })
+    <br />
+    <label>Referans İsmi</label>
+    @Html.TextBoxFor(x => x.Title, new { @class = "form-control" })
+    <br />
+    <label>Referans Mesleği</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <label>Referans Açıklaması</label>
+    @Html.TextBoxFor(x => x.IconUrl, new { @class = "form-control" })
+    <br />
+
+
+    <button class="btn btn-info">Servisi Güncelle</button>
+
+</form>
+

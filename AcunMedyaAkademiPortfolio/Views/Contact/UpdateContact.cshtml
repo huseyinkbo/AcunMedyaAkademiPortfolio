@@ -1,0 +1,33 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblContact
+@{
+    ViewBag.Title = "UpdateContact";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Contact Güncelleme</h2>
+<form method="post">
+
+
+    <label>Contact ID'si</label>
+    @Html.TextBoxFor(x => x.ContactId, new { @class = "form-control" })
+    <br />
+    <label>Contact İsmi</label>
+    @Html.TextBoxFor(x => x.Name, new { @class = "form-control" })
+    <br />
+    <label>Contact Emaili</label>
+    @Html.TextBoxFor(x => x.Email, new { @class = "form-control" })
+    <br />
+    <label>Contact Subjecti</label>
+    @Html.TextBoxFor(x => x.Subject, new { @class = "form-control" })
+    <br />
+    <label>Contact Açıklaması</label>
+    @Html.TextBoxFor(x => x.Description, new { @class = "form-control" })
+    <br />
+    <label>Contact Oluşturulma Tarihi</label>
+    @Html.TextBoxFor(x => x.CreateDate, new { @class = "form-control" })
+    <br />
+
+
+    <button class="btn btn-info">Contactı Güncelle</button>
+
+</form>
