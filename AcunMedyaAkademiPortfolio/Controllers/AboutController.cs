@@ -12,7 +12,7 @@ namespace AcunMedyaAkademiPortfolio.Controllers
         DbPortfolioEntities1 db = new DbPortfolioEntities1();
         public ActionResult AboutList()
         {
-            var values = db.TblAbout.ToList();
+            var values = db.TblAbout.ToList();//asd
             return View(values);
         }
         [HttpGet]
