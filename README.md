@@ -23,5 +23,15 @@
 <ul><img src = "https://github.com/user-attachments/assets/a133e076-c63c-4de9-8be8-40a3ae687246"</ul>
 <h1><img align="left" src="https://cdn-icons-png.flaticon.com/512/8273/8273004.png"width="50" height="50">Ana Sayfa</h1>
   <br>
-<ul><img src = "https://github.com/user-attachments/assets/2fe6fea1-eeee-4f95-9a9c-2038c76ff236"</ul>
+<ul1><img src = "https://github.com/user-attachments/assets/647e2af2-ea56-4292-adf0-b804379a9662"</ul>
+<br>  
+<h1><img align="left" src="https://cdn-icons-png.freepik.com/512/7068/7068006.png"width="50" height="50">Admin Paneli Örnekleri</h1>
+<ul1><img src ="https://github.com/user-attachments/assets/bace59de-a4d3-4094-af8f-e0b300dc5137"</ul>
+<br>
+<br>
+<ul1><img src ="https://github.com/user-attachments/assets/3725a57c-7a34-4065-8aa3-dab7dcca2d94"</ul>
+<br>
+<br>
+<ul1><img src ="https://github.com/user-attachments/assets/0288bdaf-7d0b-46cb-a6c4-528b2164130c"</ul>
+
   
