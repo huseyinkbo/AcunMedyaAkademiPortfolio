@@ -10,6 +10,7 @@
         <th>Isim</th>
         <th>Mesleği</th>      
         <th>Açıklama</th>      
+        <th>Resim</th>
         <th>Güncelle</th>      
         <th>Sil</th>      
     </tr>
@@ -20,9 +21,12 @@
                 <td>@item.TestimonialName</td>
                 <td>@item.TestimonialTitle</td>
                 <td>@item.TestimonialDescription</td>
+                <td align="center">
+                    <img src="@item.TestimonialImageUrl" style="width:150px" />
+                </td>
                 <td><a href="/Testimonial/UpdateTestimonial/@item.TestimonialId" class="btn btn-warning">Güncelle</a></td>
                 <td><a href="/Testimonial/DeleteTestimonial/@item.TestimonialId" class="btn btn-danger">Sil</a></td>
-                
+
             </tr>
 
         }

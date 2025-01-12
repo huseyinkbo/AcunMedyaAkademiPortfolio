@@ -17,7 +17,9 @@
     {
         <tr>
             <td>@item.HobbyId</td>
-            <td>@item.IconUrl</td>
+            <td align="center">
+                <img src="@item.IconUrl" style="width:25px" />
+            </td>
             <td>@item.Title</td>
             <td><a href="/Hobby/UpdateHobby/@item.HobbyId" class="btn btn-warning">Güncelle</a></td>
             <td><a href="/Hobby/DeleteHobby/@item.HobbyId" class="btn btn-danger">Sil</a></td>
@@ -26,6 +28,6 @@
 
     }
 </table>
-<td><a href="/Hobby/CreateHobby" class="btn btn-info">Yeni Referans Ekle</a></td>
+<td><a href="/Hobby/CreateHobby" class="btn btn-info">Yeni Hobi Ekle</a></td>
 
 

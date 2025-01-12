@@ -15,7 +15,7 @@ namespace AcunMedyaAkademiPortfolio.Models
     public partial class TblSocialMedia
     {
         public int SocialMediaID { get; set; }
-        public string socialMediaName { get; set; }
+        public string socialMediaUrl { get; set; }
         public string socialmediaImageUrl { get; set; }
     }
 }

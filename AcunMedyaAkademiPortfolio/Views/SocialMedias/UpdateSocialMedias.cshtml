@@ -1,0 +1,25 @@
+﻿@model AcunMedyaAkademiPortfolio.Models.TblSocialMedia
+@{
+    ViewBag.Title = "UpdateSocialMedias";
+    Layout = "~/Views/AdminLayout/Index.cshtml";
+}
+
+<h2>Yeni Referans Güncelleme</h2>
+<form method="post">
+
+    <label>Social Media ID</label>
+    @Html.TextBoxFor(x => x.SocialMediaID, new { @class = "form-control" })
+    <br />
+    <label>Social Media URL</label>
+    @Html.TextBoxFor(x => x.socialMediaUrl, new { @class = "form-control" })
+    <br />
+    <label>Social Media Resim URL</label>
+    @Html.TextBoxFor(x => x.socialmediaImageUrl, new { @class = "form-control" })
+    <br />
+
+
+    <button class="btn btn-info">Referansı Güncelle</button>
+
+</form>
+
+

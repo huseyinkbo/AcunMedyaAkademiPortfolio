@@ -122,7 +122,7 @@
             <PropertyRef Name="SocialMediaID" />
           </Key>
           <Property Name="SocialMediaID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="socialMediaName" Type="varchar" MaxLength="150" />
+          <Property Name="socialMediaUrl" Type="varchar" MaxLength="150" />
           <Property Name="socialmediaImageUrl" Type="varchar" MaxLength="150" />
         </EntityType>
         <EntityType Name="TblTestimonial">
@@ -336,7 +336,7 @@
             <PropertyRef Name="SocialMediaID" />
           </Key>
           <Property Name="SocialMediaID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="socialMediaName" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
+          <Property Name="socialMediaUrl" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
           <Property Name="socialmediaImageUrl" Type="String" MaxLength="150" FixedLength="false" Unicode="false" />
         </EntityType>
       </Schema>
@@ -486,7 +486,7 @@
             <EntityTypeMapping TypeName="DbPortfolioModel.TblSocialMedia">
               <MappingFragment StoreEntitySet="TblSocialMedia">
                 <ScalarProperty Name="socialmediaImageUrl" ColumnName="socialmediaImageUrl" />
-                <ScalarProperty Name="socialMediaName" ColumnName="socialMediaName" />
+                <ScalarProperty Name="socialMediaUrl" ColumnName="socialMediaUrl" />
                 <ScalarProperty Name="SocialMediaID" ColumnName="SocialMediaID" />
               </MappingFragment>
             </EntityTypeMapping>

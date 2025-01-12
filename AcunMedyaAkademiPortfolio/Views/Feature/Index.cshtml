@@ -19,7 +19,9 @@
             <td>@item.featureId</td>
             <td>@item.FeatureTitle</td>
             <td>@item.FeatureSubtitle</td>
-            <td>@item.FeatureImageUrl</td>
+            <td align = "center">              
+                <img src="@item.FeatureImageUrl" style="width:150px" />
+           </td>
             <td><a href="/Feature/UpdateFeature/@item.featureId" class="btn btn-warning">Güncelle</a></td>
             <td><a href="/Feature/DeleteFeature/@item.featureId" class="btn btn-danger">Sil</a></td>
 
